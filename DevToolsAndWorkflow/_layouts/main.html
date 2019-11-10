@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Jekyll Site</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <button><a href="/index.html">Home</a></button>
+            <button><a href="/about/">About</a></button>
+        </nav>
+        
+    </header>
+
+    <div style="margin-bottom: 200px;">
+        <main>
+        {% if page.title %}
+        <h2>{{ page.title }}</h2>
+        {% endif %}
+
+        {{ content }}
+        </main>
+    </div>
+        
+    <div id="footer">
+            <footer>
+                <h3>Contact us:</h3>
+                    <ul>
+                        <li>email: <a href="http://www.gmail.com">NotRealMail</a> </li>
+                        <li>phone: ##########</li>
+                        <li>facebook: <a href="http://www.facebook.com">NotAnActualProfile</a> </li>
+                    </ul>
+            </footer>
+    </div>
+</body>
+</html>

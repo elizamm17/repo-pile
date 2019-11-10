@@ -1,0 +1,62 @@
+html, body {
+    height:100%;
+}
+
+body {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background: rgb(66, 135, 245);
+    display: flex;
+    padding: 0.5em;
+}
+
+header {
+    border-bottom: 2px solid rgb(66, 135, 245);;
+    
+    justify-content: flex-end;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header nav {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#footer {    
+    border-top: 2px solid rgb(66, 135, 245);
+    position:fixed;
+    bottom:0;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header button {
+    align-self: flex-end;
+    padding: 1em;
+    margin: 1em;
+    background: rgb(241, 238, 238);
+    color: black;
+    border: 2px solid black;
+}
+
+header nav button a {
+    text-decoration: none;
+}
+
+#footer ul {
+    list-style: none;
+}
